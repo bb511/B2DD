@@ -13,7 +13,7 @@ url                      : "https://bb511.github.io/B2DD"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "bb511/B2DD"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.jpg"
+logo                     : "/assets/images/logo.png"
 masthead_title           : "B2DD"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 150
