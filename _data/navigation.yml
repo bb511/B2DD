@@ -1,6 +1,8 @@
 # main links
 main:
-    - title: "Preliminary Histograms"
-      url: /histograms/
-    - title: "Machine Leaning"
-      url: /ml/
+    - title: "Home"
+      url: index.html
+    - title: "Downloads"
+      url: /downloads/
+    - title: "About"
+      url: /about/
