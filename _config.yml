@@ -18,6 +18,7 @@ masthead_title           : "B2DD"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 150
 search                   : true
+markdown                 : kramdown
 
 # SEO Related
 google_site_verification : "google40d1e04e75572e6b"
