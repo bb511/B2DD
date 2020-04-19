@@ -4,7 +4,30 @@ layout:  splash
 header:
   overlay_filter: rgba(0,0,0,0.7)
   overlay_image: /assets/images/banner.jpg
-caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Measurement of CP asymmetry in charmed B meson decays using the LHCb detector."
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: "CP asymmetry measurement of charmed B meson decays using the LHCb detector."
+feature_row:
+    - image_path: /assets/images/histos.jpg
+      alt: "Preliminary Histograms"
+      title: "Preliminary Histograms"
+      url: "histos/"
+      excerpt: "Histograms used to determine which variables are better at disciminating between S&N."
+      btn_label: "Read More"
+      btn_class: "btn--info"
+    - image_path: /assets/images/ml.jpg
+      alt: "ML Training"
+      title: "ML Training"
+      url: "MLtrain/"
+      excerpt: "A BDT was trained on the data to remove as much of the background as possible."
+      btn_label: "Read More"
+      btn_class: "btn--info"
+    - image_path: /assets/images/placeholder.jpg
+      alt: "Fitting the Spectrum"
+      title: "Fitting the Spectrum"
+      excerpt: "The spectrum was fitted to determine where to cut on the BDT output."
+      url: "fitting/"
+      btn_label: "Read More"
+      btn_class: "btn--info"
 ---
 
+{% include feature_row %}
