@@ -1,0 +1,16 @@
+./copy.sh 0
+./copy.sh 1
+./copy.sh 2
+./copy.sh 3
+./copy.sh 4
+./copy.sh 5
+./copy.sh 6
+./copy.sh 7
+./copy.sh 8
+./copy.sh 9
+./copy.sh 10
+./copy.sh 11
+./copy.sh 12
+./copy.sh 13
+./copy.sh 14
+./copy.sh 15
