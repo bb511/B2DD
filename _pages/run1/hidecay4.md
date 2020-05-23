@@ -1,5 +1,5 @@
 ---
-permalink: /histos/run1/hidecay4
+permalink: /histos/run1/hidecay4/
 title:   "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi_\\mathrm{s}$ || $\\pi^+K^-$ || $K^+\\pi^-$"
 layout:  splash
 header:

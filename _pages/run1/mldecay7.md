@@ -1,5 +1,5 @@
 ---
-permalink: /MLtrain/run1/mldecay7
+permalink: /MLtrain/run1/mldecay7/
 title:   "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi_\\mathrm{s}$ || $K^-\\pi^+\\pi^-\\pi^+$ || $K^+\\pi^-\\pi^+\\pi^-$"
 layout:  splash
 header:
