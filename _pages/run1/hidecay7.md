@@ -1,6 +1,6 @@
 ---
 permalink: /histos/run1/hidecay7/
-title:   "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi_\\mathrm{s}$ || $K^-\\pi^+\\pi^-\\pi^+$ || $K^+\\pi^-\\pi^+\\pi^-$"
+title:   "$B^+\\rightarrow D^{*+}D^0 \\rightarrow \\pi^+_\\mathrm{s}$ || $K^-\\pi^+\\pi^-\\pi^+$ || $K^+\\pi^-\\pi^+\\pi^-$"
 layout:  splash
 header:
   overlay_filter: rgba(0,0,0,0.8)

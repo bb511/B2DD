@@ -1,6 +1,6 @@
 ---
 permalink: /MLtrain/
-title:   "ML Training"
+title:   "Multivariate Methods"
 layout:  single
 sidebar:
   nav: "mldecays1"

@@ -4,6 +4,8 @@ main:
       url: /introduction/
     - title: "Theory"
       url: /theory/
+    - title: "LHCb"
+      url: /lhcb/
     - title: "Downloads"
       url: /downloads/
     - title: "About"
@@ -13,40 +15,40 @@ mldecays1:
   - title: "ML Run 1 Training"
     url: /MLtrain/
     children:
-      - title: "$B^+\\rightarrow D^+D^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-$"
+      - title: "$B^+\\rightarrow D^+\\bar{D}^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-$"
         url: /MLtrain/run1/mldecay0/
-      - title: "$B^+\\rightarrow D^+D^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
+      - title: "$B^+\\rightarrow D^+\\bar{D}^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
         url: /MLtrain/run1/mldecay1/
-      - title: "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-$"
+      - title: "$B^+\\rightarrow D_s^+\\bar{D}^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-$"
         url: /MLtrain/run1/mldecay2/
-      - title: "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
+      - title: "$B^+\\rightarrow D_s^+\\bar{D}^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
         url: /MLtrain/run1/mldecay3/
-      - title: "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi_\\mathrm{s} | \\pi^+K^- | K^+\\pi^-$"
+      - title: "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s} | \\pi^+K^- | K^+\\pi^-$"
         url: /MLtrain/run1/mldecay4/
-      - title: "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi_\\mathrm{s} | \\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
+      - title: "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s} | \\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
         url: /MLtrain/run1/mldecay5/
-      - title: "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi_\\mathrm{s} | K^-\\pi^+\\pi^-\\pi^+ | K^+\\pi^-$"
+      - title: "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s} | K^-\\pi^+\\pi^-\\pi^+ | K^+\\pi^-$"
         url: /MLtrain/run1/mldecay6/
-      - title: "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi_\\mathrm{s} | K^-\\pi^+\\pi^-\\pi^+ | K^+\\pi^-\\pi^+\\pi^-$"
+      - title: "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s} | K^-\\pi^+\\pi^-\\pi^+ | K^+\\pi^-\\pi^+\\pi^-$"
         url: /MLtrain/run1/mldecay7/
 
 histos1:
   - title: "Run 1 Preliminary Histos"
     url: /histos/
     children:
-      - title: "$B^+\\rightarrow D^+D^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-$"
+      - title: "$B^+\\rightarrow D^+\\bar{D}^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-$"
         url: /histos/run1/hidecay0/
-      - title: "$B^+\\rightarrow D^+D^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
+      - title: "$B^+\\rightarrow D^+\\bar{D}^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
         url: /histos/run1/hidecay1/
-      - title: "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-$"
+      - title: "$B^+\\rightarrow D_s^+\\bar{D}^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-$"
         url: /histos/run1/hidecay2/
-      - title: "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
+      - title: "$B^+\\rightarrow D_s^+\\bar{D}^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
         url: /histos/run1/hidecay3/
-      - title: "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi_\\mathrm{s} | \\pi^+K^- | K^+\\pi^-$"
+      - title: "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s} | \\pi^+K^- | K^+\\pi^-$"
         url: /histos/run1/hidecay4/
-      - title: "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi_\\mathrm{s} | \\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
+      - title: "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s} | \\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
         url: /histos/run1/hidecay5/
-      - title: "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi_\\mathrm{s} | K^-\\pi^+\\pi^-\\pi^+ | K^+\\pi^-$"
+      - title: "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s} | K^-\\pi^+\\pi^-\\pi^+ | K^+\\pi^-$"
         url: /histos/run1/hidecay6/
-      - title: "$B^+\\rightarrow D^*D^0 \\rightarrow \\pi_\\mathrm{s} | K^-\\pi^+\\pi^-\\pi^+ | K^+\\pi^-\\pi^+\\pi^-$"
+      - title: "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s} | K^-\\pi^+\\pi^-\\pi^+ | K^+\\pi^-\\pi^+\\pi^-$"
         url: /histos/run1/hidecay7/
