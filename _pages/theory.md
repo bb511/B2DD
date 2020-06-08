@@ -35,7 +35,7 @@ $$
 Nonzero $CP$ asymmetries are expected in the SM due to interference between the tree-level, loop-level, and annihilation type Feynman diagrams, as illustrated in [Fig. 1](#fig1). However, the SM predicts a $CP$ violation of $\mathcal{O}(1\%)$. New physics contributions, e.g., supersymmetric ones , can enhance the $CP$ asymmetry in the measured $B^+$ decays by up to 10%.
 
 <a name="fig1">
-![feynman]({{ site.url }}/assets/images/figs/fig1.png)
+![feynman]({{ site.url }}{{ site.baseurl }}/assets/images/figs/fig1.png)
 </a>
 
 

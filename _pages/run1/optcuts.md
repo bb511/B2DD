@@ -8,4 +8,4 @@ header:
 ---
 
 ### The plots correspond to the decays in the same order as in the ML training section.
-![optcut1]({{ site.url }}/assets/images/fits/optcut1.png)
+![optcut1]({{ site.url }}{{ site.baseurl }}/assets/images/fits/optcut1.png)
