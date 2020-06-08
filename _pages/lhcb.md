@@ -9,7 +9,7 @@ layout:  splash
 ---
 
 <a name="fig2">
-![lhcb]({{ site.url }}{{ site.baseurl }}/assets/images/figs/fig2.png)
+![lhcb]({{ site.url }}/assets/images/figs/fig2.png)
 </a>
 
 The LHCb detector is a single-arm forward detector that covers the pseudo-rapidities between $2<\eta<5$. Originally, it was designed for the study of particles that contain $b$ or $c$ quarks. The detector schematic is presented in [Fig. 2a)](#fig2). Following this schematic, the various parts of the detector are described below.
