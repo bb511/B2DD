@@ -1,6 +1,6 @@
 ---
 permalink: /MLtrain/run1/mldecay7/
-title:   "$B^+\\rightarrow D^{*+}D^0 \\rightarrow \\pi^+_\\mathrm{s}$ || $K^-\\pi^+\\pi^-\\pi^+$ || $K^+\\pi^-\\pi^+\\pi^-$"
+title:   "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s}$ || $K^-\\pi^+\\pi^-\\pi^+$ || $K^+\\pi^-\\pi^+\\pi^-$"
 layout:  splash
 header:
   overlay_filter: rgba(0,0,0,0.8)

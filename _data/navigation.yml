@@ -4,14 +4,14 @@ main:
       url: /introduction/
     - title: "Theory"
       url: /theory/
-    - title: "LHCb"
+    - title: "LHCb and Data"
       url: /lhcb/
     - title: "Downloads"
       url: /downloads/
     - title: "About"
       url: /about/
 
-mldecays1:
+mldecays:
   - title: "ML Run 1 Training"
     url: /MLtrain/
     children:
@@ -32,8 +32,28 @@ mldecays1:
       - title: "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s} | K^-\\pi^+\\pi^-\\pi^+ | K^+\\pi^-\\pi^+\\pi^-$"
         url: /MLtrain/run1/mldecay7/
 
+  - title: "ML Run 2 Training"
+    url: /MLtrain/
+    children:
+      - title: "$B^+\\rightarrow D^+\\bar{D}^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-$"
+        url: /MLtrain/run2/mldecay0/
+      - title: "$B^+\\rightarrow D^+\\bar{D}^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
+        url: /MLtrain/run2/mldecay1/
+      - title: "$B^+\\rightarrow D_s^+\\bar{D}^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-$"
+        url: /MLtrain/run2/mldecay2/
+      - title: "$B^+\\rightarrow D_s^+\\bar{D}^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
+        url: /MLtrain/run2/mldecay3/
+      - title: "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s} | \\pi^+K^- | K^+\\pi^-$"
+        url: /MLtrain/run2/mldecay4/
+      - title: "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s} | \\pi^+K^- | K^+\\pi^-\\pi^+\\pi^-$"
+        url: /MLtrain/run2/mldecay5/
+      - title: "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s} | K^-\\pi^+\\pi^-\\pi^+ | K^+\\pi^-$"
+        url: /MLtrain/run2/mldecay6/
+      - title: "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s} | K^-\\pi^+\\pi^-\\pi^+ | K^+\\pi^-\\pi^+\\pi^-$"
+        url: /MLtrain/run2/mldecay7/
+
 histos1:
-  - title: "Run 1 Preliminary Histos"
+  - title: "Preliminary Histos"
     url: /histos/
     children:
       - title: "$B^+\\rightarrow D^+\\bar{D}^0 \\rightarrow \\pi^+\\pi^+K^- | K^+\\pi^-$"
@@ -52,3 +72,37 @@ histos1:
         url: /histos/run1/hidecay6/
       - title: "$B^+\\rightarrow D^{*+}\\bar{D}^0 \\rightarrow \\pi^+_\\mathrm{s} | K^-\\pi^+\\pi^-\\pi^+ | K^+\\pi^-\\pi^+\\pi^-$"
         url: /histos/run1/hidecay7/
+
+fitting:
+  - title: "Best Fit Comparison"
+    url: /fitting/
+    children:
+      - title: "All Decays"
+        url: /fitting/comparison/
+
+  - title: "No Cut Fits"
+    url: /fitting/
+    children:
+      - title: "Run 1"
+        url: /fitting/run1/nocuts/
+      - title: "Run 2"
+        url: /fitting/run2/nocuts/
+
+  - title: "Optimal Cuts"
+    url: /fitting/
+    children:
+      - title: "Run 1"
+        url: /fitting/run1/optcuts/
+      - title: "Run 2"
+        url: /fitting/run2/optcuts/
+
+  - title: "Optimal Cut Fits"
+    url: /fitting/
+    children:
+      - title: "Run 1"
+        url: /fitting/run1/optfits/
+      - title: "Run 2"
+        url: /fitting/run2/optfits/
+
+
+

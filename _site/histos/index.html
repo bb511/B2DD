@@ -97,7 +97,7 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--single wide">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -129,7 +129,7 @@
             </li><li class="masthead__menu-item">
               <a href="/theory/">Theory</a>
             </li><li class="masthead__menu-item">
-              <a href="/lhcb/">LHCb</a>
+              <a href="/lhcb/">LHCb and Data</a>
             </li><li class="masthead__menu-item">
               <a href="/downloads/">Downloads</a>
             </li><li class="masthead__menu-item">
@@ -173,27 +173,27 @@
     
       <li>
         
-          <a href="/histos/"><span class="nav__sub-title">Run 1 Preliminary Histos</span></a>
+          <a href="/histos/"><span class="nav__sub-title">Preliminary Histos</span></a>
         
 
         
         <ul>
           
-            <li><a href="/histos/run1/hidecay0/">$B^+\rightarrow D^+D^0 \rightarrow \pi^+\pi^+K^- | K^+\pi^-$</a></li>
+            <li><a href="/histos/run1/hidecay0/">$B^+\rightarrow D^+\bar{D}^0 \rightarrow \pi^+\pi^+K^- | K^+\pi^-$</a></li>
           
-            <li><a href="/histos/run1/hidecay1/">$B^+\rightarrow D^+D^0 \rightarrow \pi^+\pi^+K^- | K^+\pi^-\pi^+\pi^-$</a></li>
+            <li><a href="/histos/run1/hidecay1/">$B^+\rightarrow D^+\bar{D}^0 \rightarrow \pi^+\pi^+K^- | K^+\pi^-\pi^+\pi^-$</a></li>
           
-            <li><a href="/histos/run1/hidecay2/">$B^+\rightarrow D^*D^0 \rightarrow \pi^+\pi^+K^- | K^+\pi^-$</a></li>
+            <li><a href="/histos/run1/hidecay2/">$B^+\rightarrow D_s^+\bar{D}^0 \rightarrow \pi^+\pi^+K^- | K^+\pi^-$</a></li>
           
-            <li><a href="/histos/run1/hidecay3/">$B^+\rightarrow D^*D^0 \rightarrow \pi^+\pi^+K^- | K^+\pi^-\pi^+\pi^-$</a></li>
+            <li><a href="/histos/run1/hidecay3/">$B^+\rightarrow D_s^+\bar{D}^0 \rightarrow \pi^+\pi^+K^- | K^+\pi^-\pi^+\pi^-$</a></li>
           
-            <li><a href="/histos/run1/hidecay4/">$B^+\rightarrow D^*D^0 \rightarrow \pi_\mathrm{s} | \pi^+K^- | K^+\pi^-$</a></li>
+            <li><a href="/histos/run1/hidecay4/">$B^+\rightarrow D^{*+}\bar{D}^0 \rightarrow \pi^+_\mathrm{s} | \pi^+K^- | K^+\pi^-$</a></li>
           
-            <li><a href="/histos/run1/hidecay5/">$B^+\rightarrow D^*D^0 \rightarrow \pi_\mathrm{s} | \pi^+K^- | K^+\pi^-\pi^+\pi^-$</a></li>
+            <li><a href="/histos/run1/hidecay5/">$B^+\rightarrow D^{*+}\bar{D}^0 \rightarrow \pi^+_\mathrm{s} | \pi^+K^- | K^+\pi^-\pi^+\pi^-$</a></li>
           
-            <li><a href="/histos/run1/hidecay6/">$B^+\rightarrow D^*D^0 \rightarrow \pi_\mathrm{s} | K^-\pi^+\pi^-\pi^+ | K^+\pi^-$</a></li>
+            <li><a href="/histos/run1/hidecay6/">$B^+\rightarrow D^{*+}\bar{D}^0 \rightarrow \pi^+_\mathrm{s} | K^-\pi^+\pi^-\pi^+ | K^+\pi^-$</a></li>
           
-            <li><a href="/histos/run1/hidecay7/">$B^+\rightarrow D^*D^0 \rightarrow \pi_\mathrm{s} | K^-\pi^+\pi^-\pi^+ | K^+\pi^-\pi^+\pi^-$</a></li>
+            <li><a href="/histos/run1/hidecay7/">$B^+\rightarrow D^{*+}\bar{D}^0 \rightarrow \pi^+_\mathrm{s} | K^-\pi^+\pi^-\pi^+ | K^+\pi^-\pi^+\pi^-$</a></li>
           
         </ul>
         
@@ -225,7 +225,9 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>Add description of preliminary histogram process…</p>
+        <p>A large array of potentially useful variables are selected from the refined analysis data samples described in the <a href="../lhcb">LHCb</a> section. This initial selection is conducted based on general physical considerations of what would constitute the best training set for a multivariate analysis algorithm (MVA). The main particle properties considered in the selection are in the histograms to the left. Most, but not all of them are applicable for every particle in the studied decay chains.</p>
+
+<p>Thus, if a particle contains one of the properties listed in the histograms you can access to the left, the distribution of that variable is plotted for both real data and the simulation. The two resulting histograms are then normalized with respect to their total number of events and overlaid. The obtained plots are used to determine if the variable under consideration is indeed a good candidate for MVA training. If the shape of the signal MC sample distribution is quite distinct from the real data sample shape, then the variable is deemed as good; if they match, the variable is removed and the BDT will not be trained on it. This is to ensure that the MVA learns how to discriminate between signal and background with high efficiency. All the plots are found on the links to the left of this webpage. These are only for Run I. The Run II histograms are the same, since the increase in statistics is not noticeable as the histograms are normalized.</p>
 
         
       </section>
